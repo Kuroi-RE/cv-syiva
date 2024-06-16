@@ -64,7 +64,16 @@ main {
   border: 2px groove #333;
 }
 
+div.gallery-container {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 div.gallery {
+  /* border: 1px solid blue; */
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
